@@ -1,0 +1,14 @@
+{
+	"auto_upgrade_last_run": 1347784784,
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoSelect",
+		"BracketHighlighter",
+		"IndentGuides",
+		"Package Control",
+		"SublimeCodeIntel",
+		"Tag",
+		"Theme - Soda"
+	]
+}

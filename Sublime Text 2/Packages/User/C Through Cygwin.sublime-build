@@ -1,0 +1,5 @@
+{
+	"cmd": ["g++-3", "$file", "-o", "$file_base_name"],  
+	"selector": "source.c",
+	"shell" : true
+}
