@@ -20,3 +20,14 @@ Eclipse
 --------------------------------
 
 Install the pages using the Import Wizard. `Import -> Preferences` should do the trick.
+
+Vim
+--------------------------------
+
+Install [Vundle](https://github.com/gmarik/Vundle.vim) first. Also take care to compile You-Complete-Me aftet Vundle sets it up.
+
+
+Zsh
+--------------------------------
+
+Install [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh) first.
