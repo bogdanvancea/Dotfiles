@@ -13,6 +13,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'jiangmiao/auto-pairs'
 Bundle 'kien/ctrlp.vim'
 Bundle 'majutsushi/tagbar'
+Bundle 'bling/vim-airline'
 
 filetype plugin indent on     " required!
 
@@ -41,3 +42,8 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 " Configure hotkeys
 nmap <F12> :TagbarToggle<CR>
 nmap <F2> :NERDTreeToggle<CR>
+
+" hide Toolbar and left scrollbar while in GUI
+if has("gui_running")
+    set guioptions=egmrt
+endif
