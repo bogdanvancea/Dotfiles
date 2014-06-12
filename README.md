@@ -10,6 +10,8 @@ Currently contains:
 * Sublime Text 2 packages
 * Sublime Text 3 packages
 * Eclipse packages
+* Vim configuration file
+* ZSH configuration file
 
 Sublime Text 3
 --------------------------------
