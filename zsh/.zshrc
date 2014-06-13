@@ -7,6 +7,12 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="ys"
 
+# Terminal Setup
+# Font: Ubuntu Mono 12
+# Background: R: 10, G:10, B:26, Hue:249, Sat: 62, Value:10
+# Foreground: R: 246, G: 231, B 231, Hue: 0, Sat: 6, Value: 96
+#
+#
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -48,14 +54,12 @@ source $ZSH/oh-my-zsh.sh
 export PSQL_EDITOR="/usr/bin/subl"
 export DM_HOME="/media/external/work/ETH/Data Mining"
 export ISK_HOME="/media/external/work/ETH/TA/Information Systems/workspace/isk-project"
+export WORK_HOME="/media/external/work/"
 export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
 export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
 
 alias sample_bitly='python /usr/local/bin/sample.py'
 alias histogram_bitly='python /usr/local/bin/histogram.py'export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export PATH="$PATH:/opt/q"
 
 source $HOME/.bash_profile
