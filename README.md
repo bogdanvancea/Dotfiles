@@ -28,6 +28,12 @@ Vim
 
 Install [Vundle](https://github.com/gmarik/Vundle.vim) first. Also take care to compile You-Complete-Me aftet Vundle sets it up.
 
+**To set up solarized**
+```
+mkdir ~/.vim/colors/
+mv solarized.vim ~/.vim/colors
+```
+
 
 Zsh
 --------------------------------
