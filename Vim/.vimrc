@@ -5,16 +5,16 @@ filetype off " required!
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'tpope/vim-fugitive'
-Bundle 'scrooloose/nerdtree'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'ervandew/supertab'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'jiangmiao/auto-pairs'
-Bundle 'kien/ctrlp.vim'
-Bundle 'majutsushi/tagbar'
-Bundle 'bling/vim-airline'
+Plugin 'gmarik/vundle'
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'ervandew/supertab'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'kien/ctrlp.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'bling/vim-airline'
 Plugin 'scrooloose/syntastic'
 
 " All of your Plugins must be added before the following line
